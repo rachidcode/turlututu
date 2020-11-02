@@ -31,30 +31,39 @@ li a:hover {
     font-size: 17px;
     background-color: rgb(31, 147, 204);
     display: flex;
-    justify-content: center;
     border: 2px solid rgb(31, 147, 204);
     height: 400px;
     align-items: center;
    
 
 }
-
+#man{
+    margin-bottom: 120px;
+    margin-left: 45px;
+}
+#pad{
+    color: white;
+    font-size: 30px;
+    margin: auto;
+}
 h3 {
     font-size: 25px;
     /* padding-left: 45px; */
     color: white;
     display: inline;
     margin: auto;
-    
-
-
-}
-#btn img{
-justify-content: center;
 
 }
 
-button {
+#btn{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#prem{
     background-color: #E99002;
     border: solid 2px white;
     color: white;
@@ -66,6 +75,88 @@ button {
     font-size: 1.5em;
     cursor: pointer;
     margin-top: 10%;
-    /* margin-left: 85%; */
     margin: auto;
 }
+h2{
+    text-align: center;
+}
+#conteneur1{
+    display: flex;
+    background-color:rgb(31, 147, 204) ;
+    border: solid rgb(31, 147, 204);
+    height: 200px;
+}
+   
+.box{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 17px;
+    width: 1200px;
+    height: 200px;
+    flex-wrap: wrap;
+    border: solid rgb(31, 147, 204); 
+    color: white;
+    
+}
+
+#conteneur2{
+    display: flex;
+    background-color:rgb(31, 147, 204) ; 
+    border: solid rgb(31, 147, 204);
+    height: 200px;
+
+}
+.boxx{
+    margin-left: 5%;
+    width: 1200px;
+    height: 150px;
+    flex-wrap: wrap;
+    border: solid rgb(31, 147, 204); 
+    color: white;
+}
+#two{
+    color: gray;
+}
+#conteneur3{
+    
+    display: flex;
+    align-items: center;
+    background-color:rgb(238, 238, 238) ; 
+    border: solid rgb(238, 238, 238);
+    height: 200px;
+}
+#img1{
+    margin-left: 190px;
+}
+#product{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+#bout{
+    display: flex;
+    justify-content: center;
+
+
+}
+.bout1{
+   
+    background-color: #E99002;
+    border: solid 2px white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 60px;
+   
+}
+.bout2{
+    background-color: royalblue;
+}
+
+
